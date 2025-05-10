@@ -20,8 +20,11 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 //"" => false, 
 // "Shubham"=>true;
 
-let someNumber = 33;
+let someNumber = 39
 
+let str = String(someNumber)
+console.log(str)
+console.log(typeof str)
 
 
 
