@@ -47,7 +47,19 @@ let myName = "Shubham"
 let anotherName = myName
 anotherName = "hitesh"
 
-console.log(myName);
-console.log(anotherName)
+//console.log(myName);
+//console.log(anotherName)
 
-let user
+let userOne = {
+    email : "bshubham479@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "bhandarishubham123@gmail.com"
+
+//console.log(userOne.email);
+//console.log(userTwo.email);
+
+//console.log(userOne)
