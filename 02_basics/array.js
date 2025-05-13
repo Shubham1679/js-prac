@@ -26,6 +26,11 @@ const myArray2 = new Array(1,2,3,4)
 
 console.log("A" , myArr)
 
-const myn1 = myArr.slice(0,3)
+const myn1 = myArr.slice(0,2)
 
 console.log(myn1)
+console.log("B" , myArr)
+
+const myn2 = myArr.splice(0,2)
+console.log("c" , myArr)
+console.log(myn2)
