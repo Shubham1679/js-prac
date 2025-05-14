@@ -39,4 +39,35 @@ function loginUsermessage(username = "sam"){                          // undefin
 
     return `${username} just Logged In`
 }
-console.log(loginUsermessage())
+// console.log(loginUsermessage())
+
+
+function calculatorCartPrice(...num1){              // ...  rest operator when we have multiple arguments
+    return num1   
+}
+
+console.log(calculatorCartPrice(200,201,300,600,500,150))
+
+const user = {
+    username: "Shubham" ,
+    Price: 190 
+}
+
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.Price}`);
+}
+
+//  handleObject(user)
+handleObject({
+    username:"sam",
+    Price:201
+})
+
+const myNewArray = [200 , 400 , 500 , 600 ]
+
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+
+// console.log(returnSecondValue(myNewArray))
+console.log(returnSecondValue([200,400,500,600]))
